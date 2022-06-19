@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <div class= "container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-dark ">
+                <div class="container-fluid">
+                    <a href="inicio.html" class="navbar-brand text-white" >INICIO</a>
+                    <button class="navbar-toggler">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                         <li class="nav-item">
+                           <a class="nav-link active text-white" aria-current="page" href=></a>
+                         </li>
+                         <li class="nav-item">
+                           <a class="nav-link text-white" href=></a>
+                         </li>
+                         </li>
+                         <li class="nav-item">
+                           <a class="nav-link text-white" href=></a>
+                         </li>
+      
+                         <li class="nav-item dropdown">
+                           <a class="nav-link dropdown-toggle text-white" href="dark" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                             Desplegar
+                           </a>
+                           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                             <li><a class="dropdown-item" href="#">Action</a></li>
+                             <li><a class="dropdown-item" href="#">Another action</a></li>
+                             <li><hr class="dropdown-divider"></li>
+                             <li><a class="dropdown-item" href="#">Something else here</a></li>
+                           </ul>
+                         </li>
+                         <li class="nav-item">
+                           <a class="nav-link disabled text-white">Disabled</a>
+                         </li>
+                       </ul>
+                       <form class="d-flex">
+                         <input class="form-control me-2" type="Buscar" placeholder="Buscar" aria-label="Buscar">
+                         <button class="btn btn-outline-dark" type="submit">Buscar</button>
+                       </form>
+                     </div>
+                   </div>
+                   <div id="after_submit"></div>
+<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+  <div class="row">
+    <label class="required" for="name">Your name:</label><br />
+    <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+    <span id="name_validation" class="error_message"></span>
+  </div>
+  <div class="row">
+    <label class="required" for="email">Your email:</label><br />
+    <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+    <span id="email_validation" class="error_message"></span>
+  </div>
+  <div class="row">
+    <label class="required" for="message">Your message:</label><br />
+    <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+    <span id="message_validation" class="error_message"></span>
+  </div>
+    
+    <input id="submit_button" type="submit" value="Send email" />
+</form>
